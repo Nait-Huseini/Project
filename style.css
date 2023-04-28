@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@300&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&family=Merriweather:wght@300&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&family=Merriweather:wght@300&family=Roboto:ital,wght@1,100&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Gloria+Hallelujah&family=Nanum+Pen+Script&display=swap');
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+.cards {
+  width: 20%;
+  background-color: grey;
+  border-radius: 25px;
+  margin: 40px;
+  display: inline-block;
+}
+
+.cards1 {
+  width: 20%;
+  background-color: rgb(129, 217, 233);
+  border-radius: 25px;
+  margin: 40px;
+  display: inline-block;
+}
+
+.cards2 {
+  width: 20%;
+  background-color: rgb(78, 13, 73);
+  border-radius: 25px;
+  margin: 40px;
+  display: inline-block;
+}
+
+.cards3 {
+  width: 20%;
+  background-color: rgb(128, 109, 28);
+  border-radius: 25px;
+  margin: 40px;
+  display: inline-block;
+}
+
+.image3 img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5;
+  border-radius: 15px;
+}
+
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5;
+  border-radius: 15px;
+}
+
+.image1 img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5;
+  border-radius: 15px;
+}
+
+.image2 img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5;
+  border-radius: 15px;
+}
+
+
+
+.title {
+  text-align: center;
+  font-family: 'merriweather', sans-serif; 
+}
+
+
+
+.title2 {
+  text-align: center;
+  font-family:'sedgwick ave display';
+}
+
+.title1 {
+  text-align: center;
+  font-family:'lobster', sans-serif;
+}
+
+.title3 {
+  text-align: center;
+  font-family:'gloria hallelujah', sans-serif; 
+}
+
+.des {
+  text-align: center;
+  padding: 2px;
+  font-family: fugaz one, sans-serif;
+  font-size: 20px;
+}
+
+.des1 {
+  text-align: center;
+  padding: 2px;
+  font-family:'caveat', sans-serif;
+  font-size: 25px;
+}
+
+.des2 {
+  text-align: center;
+  padding: 2px;
+  font-family:'rubik wet paint', sans-serif;
+  font-size: 25px;
+}
+
+.des3 {
+  text-align: center;
+  padding: 2px;
+  font-family:'nanum pen script', sans-serif;
+  font-size: 25px;
+}
+
+
+
+button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.616);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family:'merriweather';
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: rgb(85, 80, 80);
+  color: white;
+  transition: .5s;
+}
+
+.btn1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(236, 191, 191);
+  border: 1px solid rgba(4, 11, 114, 0.666);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'sedgwick ave display';
+  font-size: 18px;
+}
+
+.btn1:hover {
+  background-color: rgb(19, 34, 172);
+  color: white;
+  transition: .5s;
+}
+
+.btn2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(225, 213, 240);
+  border: 1px solid rgba(207, 146, 238, 0.666);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'rubik wet paint';
+  font-size: 15px;
+}
+
+.btn2:hover {
+  background-color: rgb(181, 133, 236);
+  color: white;
+  transition: .5s;
+}
+
+.btn3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(186, 226, 77);
+  border: 1px solid rgba(172, 133, 7, 0.795);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'caveat', sans-serif;
+  font-size: 20px;
+}
+
+.btn3:hover {
+  background-color: rgb(156, 158, 27);
+  color: white;
+  transition: .5s;
+}
+
+
+
+
